@@ -30,6 +30,8 @@ $m: 20px
 $b: #2a4b9a
 $g: #5ab12d
 
+.b
+  color: $b
 .g
   color: $g
 
@@ -110,19 +112,27 @@ div.left
 
 #slide-1
   background: url('../imgs/ale.png') no-repeat center center/25% auto
+  .hashtag
+    position: absolute
+    bottom: $m*2
+    text-align: center
+    width: calc(100% - #{$m*8})
+    margin: 0
 
 #slide-2,
 #slide-4,
   background: url('../imgs/Hackaton.jpg') no-repeat left top/auto 100vh
   text-align: right
 
-#slide-4 h1
+#slide-4 .hidden
   +opacity(0)
   +transition(opacity 1s ease)
 #slide-4 strong:hover
   color: white
-#slide-4 strong:hover + h1
+#slide-4 strong:hover + .hidden
   +opacity(1)
+#slide-4 .note
+  font-size: $m*1.5
 
 #slide-3
   background: url('../imgs/coco.jpg') no-repeat left center/40vw auto
@@ -133,14 +143,6 @@ div.left
 #slide-5 h1
   color: white
   +text-shadow(0 0 10px black)
-
-// #slide-6,
-// #slide-7
-//   img
-//     +border-radius(50%)
-
-.b
-  color: $b
 
 #slide-6
   background: url('../imgs/ciclo-convencional.png') no-repeat 90% center/auto 75vh
@@ -162,26 +164,34 @@ div.left
   h2
     mix-blend-mode: multiply
 
-
 #slide-12
+  background: url('../imgs/github.png') no-repeat left top/cover
+  h2
+    mix-blend-mode: multiply
+  .right
+    font-size: $m
+    position: absolute
+    right: $m*4
+    bottom: $m*4
+
+#slide-14
   background: url('../imgs/m-for-the-arts.jpg') no-repeat left top/contain
   div
     max-width: $m*15
 
-#slide-13
+#slide-15
   background: url('../imgs/hansa.jpg') no-repeat left top/contain
   div
     max-width: $m*15
 
-#slide-15,
 #slide-18
-  padding: 0
-  iframe
-    width: 100vw
-    height: 100vh
-
-#slide-16
-  background: url('../imgs/harvest.png') no-repeat left top/cover
+  background: url('../imgs/freecycle.png') no-repeat left top/cover
 
 #slide-19
+  background: url('../imgs/harvest.png') no-repeat left top/cover
+  .center
+    position: absolute
+    top: $m*3
+    mix-blend-mode: multiply
+#slide-22
   background: url('../imgs/superuse.png') no-repeat left top/cover
