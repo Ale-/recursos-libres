@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,800");
+/* line 33, ../sass/style.sass */
+.g {
+  color: #5ab12d;
+}
+
+/* line 36, ../sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 39, ../sass/style.sass */
+html {
+  font-size: 24px;
+}
+
+/* line 42, ../sass/style.sass */
+body {
+  position: relative;
+  cursor: crosshair;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* line 54, ../sass/style.sass */
+p {
+  margin: 0;
+}
+
+/* line 56, ../sass/style.sass */
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 59, ../sass/style.sass */
+figure {
+  margin: 0;
+}
+
+/* line 64, ../sass/style.sass */
+h1 {
+  font-family: "Montserrat", "free-sans", "sans-serif";
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+/* line 64, ../sass/style.sass */
+h2 {
+  font-family: "Montserrat", "free-sans", "sans-serif";
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+/* line 64, ../sass/style.sass */
+h3 {
+  font-family: "Montserrat", "free-sans", "sans-serif";
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/* line 64, ../sass/style.sass */
+h4 {
+  font-family: "Montserrat", "free-sans", "sans-serif";
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+/* line 64, ../sass/style.sass */
+h5 {
+  font-family: "Montserrat", "free-sans", "sans-serif";
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+/* line 64, ../sass/style.sass */
+h6 {
+  font-family: "Montserrat", "free-sans", "sans-serif";
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+/* line 67, ../sass/style.sass */
+small {
+  font-size: 0.8em;
+}
+
+/* line 71, ../sass/style.sass */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 75, ../sass/style.sass */
+iframe {
+  max-width: 100%;
+}
+
+/* line 79, ../sass/style.sass */
+li {
+  list-style: none;
+}
+
+/* line 84, ../sass/style.sass */
+section[id^='slide-'] {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding: 80px;
+  *zoom: 1;
+  display: table;
+}
+/* line 21, ../sass/style.sass */
+section[id^='slide-']:before, section[id^='slide-']:after {
+  content: " ";
+  display: table;
+}
+/* line 25, ../sass/style.sass */
+section[id^='slide-']:after {
+  clear: both;
+}
+/* line 91, ../sass/style.sass */
+section[id^='slide-'] p {
+  font-size: 1.75em;
+}
+
+/* line 94, ../sass/style.sass */
+div.right {
+  width: 40vw;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  float: right;
+}
+
+/* line 100, ../sass/style.sass */
+div.center {
+  width: 50vw;
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 105, ../sass/style.sass */
+div.left {
+  width: 40vw;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+}
+
+/* line 111, ../sass/style.sass */
+#slide-1 {
+  background: url("../imgs/ale.png") no-repeat center center/25% auto;
+}
+
+/* line 114, ../sass/style.sass */
+#slide-2,
+#slide-4 {
+  background: url("../imgs/Hackaton.jpg") no-repeat left top/auto 100vh;
+  text-align: right;
+}
+
+/* line 119, ../sass/style.sass */
+#slide-4 h1 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+/* line 122, ../sass/style.sass */
+#slide-4 strong:hover {
+  color: white;
+}
+
+/* line 124, ../sass/style.sass */
+#slide-4 strong:hover + h1 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* line 127, ../sass/style.sass */
+#slide-3 {
+  background: url("../imgs/coco.jpg") no-repeat left center/40vw auto;
+}
+
+/* line 130, ../sass/style.sass */
+#slide-5 {
+  background: url("../imgs/wtf.gif") repeat;
+}
+
+/* line 133, ../sass/style.sass */
+#slide-5 h1 {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+/* line 142, ../sass/style.sass */
+.b {
+  color: #2a4b9a;
+}
+
+/* line 145, ../sass/style.sass */
+#slide-6 {
+  background: url("../imgs/ciclo-convencional.png") no-repeat 90% center/auto 75vh;
+}
+/* line 147, ../sass/style.sass */
+#slide-6 h3 {
+  max-width: 200px;
+}
+
+/* line 150, ../sass/style.sass */
+#slide-7 {
+  background: url("../imgs/ciclo-convencional-alt.png") no-repeat 90% center/auto 75vh;
+}
+/* line 152, ../sass/style.sass */
+#slide-7 h3 {
+  max-width: 200px;
+}
+
+/* line 155, ../sass/style.sass */
+#slide-9 {
+  background: url("../imgs/ciclo-soft-libre.png") no-repeat center center/auto 75vh;
+}
+/* line 157, ../sass/style.sass */
+#slide-9 h3 {
+  max-width: 400px;
+}
+
+/* line 160, ../sass/style.sass */
+#slide-10 {
+  background: url("../imgs/comunidades.png") no-repeat center center/auto 75vh;
+}
+/* line 162, ../sass/style.sass */
+#slide-10 h2 {
+  mix-blend-mode: multiply;
+}
+
+/* line 166, ../sass/style.sass */
+#slide-12 {
+  background: url("../imgs/m-for-the-arts.jpg") no-repeat left top/contain;
+}
+/* line 168, ../sass/style.sass */
+#slide-12 div {
+  max-width: 300px;
+}
+
+/* line 171, ../sass/style.sass */
+#slide-13 {
+  background: url("../imgs/hansa.jpg") no-repeat left top/contain;
+}
+/* line 173, ../sass/style.sass */
+#slide-13 div {
+  max-width: 300px;
+}
+
+/* line 176, ../sass/style.sass */
+#slide-15,
+#slide-18 {
+  padding: 0;
+}
+/* line 179, ../sass/style.sass */
+#slide-15 iframe,
+#slide-18 iframe {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 183, ../sass/style.sass */
+#slide-16 {
+  background: url("../imgs/harvest.png") no-repeat left top/cover;
+}
+
+/* line 186, ../sass/style.sass */
+#slide-19 {
+  background: url("../imgs/superuse.png") no-repeat left top/cover;
+}
