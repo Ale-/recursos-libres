@@ -291,22 +291,53 @@ div.left {
 }
 
 /* line 187, ../sass/style.sass */
+#slide-17 {
+  background-color: #2a4b9a;
+  color: white;
+}
+
+/* line 191, ../sass/style.sass */
 #slide-18 {
   background: url("../imgs/freecycle.png") no-repeat left top/cover;
 }
+/* line 193, ../sass/style.sass */
+#slide-18 h2 {
+  mix-blend-mode: multiply;
+}
 
-/* line 190, ../sass/style.sass */
+/* line 196, ../sass/style.sass */
 #slide-19 {
   background: url("../imgs/harvest.png") no-repeat left top/cover;
 }
-/* line 192, ../sass/style.sass */
+/* line 198, ../sass/style.sass */
 #slide-19 .center {
   position: absolute;
   top: 60px;
   mix-blend-mode: multiply;
 }
 
-/* line 196, ../sass/style.sass */
+/* line 203, ../sass/style.sass */
+#slide-21 {
+  background: url("../imgs/grrr.png") no-repeat left top/cover;
+}
+/* line 205, ../sass/style.sass */
+#slide-21 div {
+  max-width: 400px;
+  mix-blend-mode: multiply;
+  margin-top: 80px;
+}
+
+/* line 210, ../sass/style.sass */
 #slide-22 {
-  background: url("../imgs/superuse.png") no-repeat left top/cover;
+  background-color: yellow;
+}
+/* line 212, ../sass/style.sass */
+#slide-22 img {
+  width: 400px;
+  margin-top: 40px;
+}
+
+/* line 216, ../sass/style.sass */
+#slide-24 {
+  background: url("../imgs/the-end.gif") no-repeat left top/cover;
 }
